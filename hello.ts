@@ -60,3 +60,17 @@
 
 //   // A safe alternative using modern JavaScript syntax:
 //   console.log(obj.last?.toUpperCase());
+declare function getInput(): string;
+declare function sanitize(str: string): string;
+// ---cut---
+type UserInputSanitizedString = string;
+
+function sanitizeInput(str: string): UserInputSanitizedString {
+  return sanitize(str);
+}
+
+// Create a sanitized input
+let userInput = sanitizeInput(getInput());
+
+// Can still be re-assigned with a string though
+userInput = "new input";
