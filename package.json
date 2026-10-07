@@ -1,0 +1,24 @@
+{
+  "name": "ts_handbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-kayes/ts_handBook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-kayes/ts_handBook/issues"
+  },
+  "homepage": "https://github.com/Dev-kayes/ts_handBook#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
