@@ -13,3 +13,4 @@ function yearsToDay(years: number): number {
 }
 console.log(userName.toLowerCase());
 console.log(yearsToDay(10));
+// =====================================

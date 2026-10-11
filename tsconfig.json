@@ -3,7 +3,7 @@
     "target": "es2022",
     "module": "es2022",
     "moduleResolution": "bundler",
-    "strict": true,
+    "strict": false,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "useUnknownInCatchVariables": true,
