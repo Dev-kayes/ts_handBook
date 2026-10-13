@@ -14,4 +14,4 @@
 
 // Do not use any => use it as less as possible:
 const valueAny: any = JSON.parse('{"name": "kayes"}');
-valueAny.notThere.ToFixed(2);
+valueAny.notThere.ToFixed(2); // This will compile but can break/explode in run time
